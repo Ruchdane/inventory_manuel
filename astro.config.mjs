@@ -3,12 +3,13 @@ import starlight from '@astrojs/starlight';
 
 // https://astro.build/config
 export default defineConfig({
+	site: 'https://example.com',
 	integrations: [
 		starlight({
-			title: 'My Docs',
-			social: {
-				github: 'https://github.com/withastro/starlight',
-			},
+			title: 'Manuel',
+			// social: {
+			// 	github: 'https://github.com/withastro/starlight',
+			// },
 			sidebar: [
 				{
 					label: 'Guides',

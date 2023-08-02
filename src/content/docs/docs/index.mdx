@@ -1,0 +1,36 @@
+---
+title: Manuel d'Inventory
+description: Manuel d'utilisation d'inventory
+template: splash
+hero:
+  tagline: Un gestionaire de ravitaillement éfficace et intuitif!
+  image:
+    file: ../../../assets/houston.webp
+  actions:
+    - text: Commencer
+      link: /docs/guides/example/
+      icon: right-arrow
+      variant: primary
+    - text: Derniere Sortie
+      link: /blog/premiere-sortie/
+      icon: external
+---
+
+import { Card, CardGrid } from '@astrojs/starlight/components';
+
+## A suivre
+
+<CardGrid stagger>
+	<Card title="Authentification" icon="pencil">
+		Comment accèder à la plateforme
+	</Card>
+	<Card title="Administrateur" icon="add-document">
+		Guides pour les boutiques
+	</Card>
+	<Card title="Distributeur" icon="setting">
+		Guides pour les distributeurs
+	</Card>
+	<Card title="Boutique" icon="open-book">
+		Guides pour les boutiques
+	</Card>
+</CardGrid>
