@@ -7,29 +7,43 @@ export default defineConfig({
 	integrations: [
 		starlight({
 			title: 'Manuel',
+			defaultLocale: 'fr',
 			// social: {
 			// 	github: 'https://github.com/withastro/starlight',
 			// },
 			sidebar: [
 				{
 					label: 'Guides',
-					autogenerate: { directory: 'guides' },
+					items: [
+						{ label: 'Introduction', link: '/docs/guides/intro' },
+						{ label: 'Authentification', link: '/docs/guides/auth' },
+						{ label: 'Stock', link: '/docs/guides/stock' },
+					],
 				},
 				{
 					label: 'Administrateur',
-					autogenerate: { directory: 'guides' },
+					items: [
+						{ label: 'Utilisateur', link: '/docs/administrateur/user' },
+						{ label: 'Produit', link: '/docs/administrateur/product' },
+						{ label: 'Ravitaillement', link: '/docs/administrateur/supply' },
+					],
 				},
 				{
 					label: 'Distributeur',
-					autogenerate: { directory: 'guides' },
+					items: [
+						{ label: 'Ravitaillement', link: '/docs/distributeur/supply' },
+					],
 				},
 				{
 					label: 'Boutique',
-					autogenerate: { directory: 'guides' },
+					items: [
+						{ label: 'Ventes', link: '/docs/boutique/sale' },
+						{ label: 'Ravitaillement', link: '/docs/boutique/supply' },
+					],
 				},
 				{
 					label: 'Reference',
-					autogenerate: { directory: 'reference' },
+					autogenerate: {directory: "docs/reference"}
 				},
 			],
 		}),

@@ -1,6 +1,6 @@
 ---
-title: Example Guide
-description: A guide in my new Starlight docs site.
+title: Introduction
+description: Un guide pour l'utilisation d'inventory.
 ---
 
 Guides lead a user through a specific task they want to accomplish, often with a sequence of steps.
