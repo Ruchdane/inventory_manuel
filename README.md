@@ -1,2 +1,2 @@
 # Inventory
-Manuel using Astro for inventory
+Manuel using Astro for inventory(based on starlight)
