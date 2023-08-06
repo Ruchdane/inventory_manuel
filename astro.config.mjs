@@ -3,7 +3,8 @@ import starlight from '@astrojs/starlight';
 
 // https://astro.build/config
 export default defineConfig({
-	site: 'https://example.com',
+  site: 'https://ruchdane.github.io',
+  base: 'inventory_manuel',
 	integrations: [
 		starlight({
 			title: 'Manuel',
