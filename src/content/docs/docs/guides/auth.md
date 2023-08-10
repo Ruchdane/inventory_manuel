@@ -1,11 +1,16 @@
 ---
 title: Authentification
 description: Comment s'authentifié sur la plateforme
+lang: fr
 ---
 
-Guides lead a user through a specific task they want to accomplish, often with a sequence of steps.
-Writing a good guide requires thinking about what your users are trying to do.
+<img src="/inventory_manuel/guides/auth_00.jpg"/>
 
-## Further reading
+Pour s'authentifier sur la plateforme :
+- Sélectionné le type de compte qui vous correspond 
+  <img src="/inventory_manuel/guides/auth_01.jpg"/>
+- Entrez votre identifiant et le mot de passe
+  <img src="/inventory_manuel/guides/auth_02.jpg"/>
+- Cliquer sur le bouton `se connecter`
 
-- Read [about how-to guides](https://diataxis.fr/how-to-guides/) in the Diátaxis framework
+

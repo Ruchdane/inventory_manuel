@@ -3,8 +3,11 @@ title: Utilisateur
 description: La gestion des utilisateurs
 ---
 
-Guides lead a user through a specific task they want to accomplish, often with a sequence of steps.
-Writing a good guide requires thinking about what your users are trying to do.
+## Comptes des Boutiques
+<img src="/inventory_manuel/guides/user_00.jpg"/>
+
+## Comptes des Boutiques
+<img src="/inventory_manuel/guides/user_00.jpg"/>
 
 ## Further reading
 
