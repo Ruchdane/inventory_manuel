@@ -1,9 +1,9 @@
 ---
-title: Manuel d'Inventory
-description: Manuel d'utilisation d'inventory
+title: Akojo
+description: Optimisez la gestion de vos stocks avec notre application efficace et intuitive.
 template: splash
 hero:
-  tagline: Un gestionaire de ravitaillement éfficace et intuitif!
+  tagline: Optimisez la gestion de vos stocks avec notre application efficace et intuitive.
   image:
     file: ../../../assets/houston.webp
   actions:
@@ -11,26 +11,54 @@ hero:
       link: /docs/guides/intro/
       icon: right-arrow
       variant: primary
-    - text: Derniere Sortie
+    - text: Dernière Sortie
       link: /blog/premiere-sortie/
       icon: external
 ---
 
-import { Icon,Card, CardGrid } from '@astrojs/starlight/components';
+import { Icon, Card, CardGrid } from "@astrojs/starlight/components";
+
+
+## Scénarios d'Utilisation
+
+Découvrez comment notre application d'inventaire s'adapte à diverses situations pour répondre aux besoins des entreprises, petites ou grandes.
+
+<CardGrid stagger>
+  <Card title="Boutique Unique + Vente Directe" icon="store">
+    Parfait pour les petites boutiques qui gèrent leur inventaire et vendent directement aux clients.
+  </Card>
+  <Card title="Magasin Unique + Plusieurs Boutiques + Ventes" icon="shopping-bag">
+    Idéal pour les entreprises avec un point central de stockage (magasin) et plusieurs points de vente.
+  </Card>
+  <Card title="Plusieurs Magasins + Plusieurs Boutiques + Ventes" icon="storefront">
+    Pour les grandes entreprises avec une structure complexe, notre application offre une gestion centralisée des stocks et une visibilité complète sur toutes les boutiques.
+  </Card>
+</CardGrid>
 
 ## A suivre
 
-<CardGrid stagger>
-	<Card title="Authentification" icon="pencil">
-		Comment accèder à la plateforme
-	</Card>
-	<Card title="Administrateur" icon="add-document">
-		Guides pour les boutiques
-	</Card>
-	<Card title="Distributeur" icon="setting">
-		Guides pour les distributeurs
-	</Card>
-	<Card title="Boutique" icon="open-book">
-		Guides pour les boutiques
-	</Card>
+<CardGrid stagger>  
+  <Card title="Gestion des Produits" icon="cube">
+    Maîtrisez le suivi détaillé de votre catalogue de produits.
+  </Card>
+  <Card title="Contrôle des Stocks" icon="chart-line">
+    Optimisez les niveaux de stock pour éviter les pénuries et les excédents.
+  </Card>
+  <Card title="Gestion des Magasins et des Boutiques" icon="shopping-bag">
+    Organisez vos lieux de stockage et suivez les mouvements de produits.
+  </Card>
+  <Card title="Suivi des Entrées et Sorties" icon="sync">
+    Restez informé en temps réel des mouvements de produits dans le réseau.
+  </Card>
+  <Card title="Rapports Analytiques" icon="chart-bar">
+    Accédez à des rapports détaillés pour des décisions éclairées.
+  </Card>
+	<Card title="Gestion des Utilisateurs et des Rôles" icon="user">
+    Définissez des rôles et attribuez des autorisations précises pour un
+    contrôle total.
+  </Card>
 </CardGrid>
+
+
+
+
